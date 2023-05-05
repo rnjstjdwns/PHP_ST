@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <br><h2>  회원 등록 화면</h2><hr>
+    <form method="post" action="./user.php">
+        아이디 : <input type="text" name="id">
+        <br><br>
+        사용 가능한 것을 모두 체크하세요.<br>
+        <input type="checkbox" name="skill[]" value="HTML"> HTML &nbsp;&nbsp;
+        <input type="checkbox" name="skill[]" value="CSS"> CSS &nbsp;&nbsp;
+        <input type="checkbox" name="skill[]" value="JAVA SCRIPT"> JAVA SCRIPT &nbsp;&nbsp;
+        <input type="checkbox" name="skill[]" value="MYSQL"> MYSQL &nbsp;&nbsp;
+        <input type="checkbox" name="skill[]" value="PHP"> PHP &nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="가입 신청"> &nbsp;&nbsp;&nbsp;&nbsp;
+    </form>
+</body>
+</html>
